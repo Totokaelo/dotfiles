@@ -87,10 +87,6 @@ nnoremap <silent> <leader>sv :so $MY_VIMRC<CR>
 " improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
 
-" highlight funky characters and whatnot
-set list
-set listchars=tab:▸\ ,trail:ـ,extends:➧,eol:¬
-
 " toggle between paste and nopaste
 set pastetoggle=<F2>
 
@@ -186,7 +182,7 @@ set clipboard=unnamed
 
 set laststatus=2
 "set statusline=%{fugitive#statusline()}\ %h%m%r%=%-14.(%l,%c%V%)\ %P
-set statusline=%f\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
+"set statusline=%f\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
 
 " who needs swapfiles?
 set noswapfile

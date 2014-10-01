@@ -18,8 +18,8 @@ compinit -i
 autoload -U promptinit
 promptinit
 
-# Vim bindings on console.
-bindkey -v
+# Emacs bindings on console.
+bindkey -e
 
 zstyle ':completion::complete:*' use-cache 1
 
